@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Edu+NSW+ACT+Foundation:wght@700&family=Itim&family=Kalam:wght@400;700&family=Kanit:wght@300&family=Laila:wght@400;700&family=Libre+Baskerville&family=Merriweather&family=Niconne&family=Oleo+Script&family=Pacifico&family=Shrikhand&family=Signika+Negative:wght@600;700&family=Ysabeau+Infant:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.homepagemain{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./images/pang-yuhao-_kd5cxwZOK4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    top: 0;
+    height: 4rem;
+    background-color: #ff8b98;
+    padding: 1% 0%;
+    z-index: 2;
+}
+header i{
+    font-size: 2.6rem;
+    color: black;
+}
+.baricon{
+    position: fixed;
+    right: -10rem;
+}
+.xmark-icon i{
+    right: -20rem;
+    position: absolute;
+    font-size: 1rem;
+}
+.index-nav{
+    margin-top: 0.7rem;
+}
+.nav{
+    z-index: 5;
+}
+.nav li{
+    list-style-type: none;
+    float: left;
+}
+.nav li a{
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+    transition: 0.5s;
+    font-family: 'Ysabeau Infant', sans-serif;
+    text-decoration: none;
+}
+.nav li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: #F1E03B;
+    border-radius: 20px;
+    box-shadow: 1px 1px 14px 2px white;
+}
+
+/* Main Heading */
+
+.mainheading{
+    position: absolute;
+    top: 10rem;
+    left: auto;
+    width: 100%;
+}
+.mainheading p{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E71D36;
+    font-weight: bold;
+    text-align: center;
+    padding: 13% 0%;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+.mainheading span{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.featuressection{
+    background-color: #005c87;
+}
+
+.feadhead{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 20%;
+    color: white;
+    background-color: chocolate;
+    text-align: center;
+}
+
+.feaallpics{
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 20px;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+
+
+
+/* Courses Page */
+
+.coursestables table{
+    border-collapse: collapse;
+    padding: 20px;
+    margin: 10% auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+.coursestables table caption{
+    margin-bottom: 2%;
+    font-size: 25px;
+    font-weight: 800;
+    color: #005c87;
+}
+.coursestables table th,td{
+    padding: 16px;
+}
+
+
+/* Departments Page */
+
+.departments{
+    text-align: center;
+}
+.dephead{
+    font-size: 30px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.departments h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    margin: 3% 0;
+    background-color: rgb(250, 147, 74);
+    color: white;
+}
+.departments .list ul{
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+.departments .list ul li{
+    list-style-type: none;
+}
+.departments .list ul li a{
+    color: #005c87;
+    text-decoration: none;
+    line-height: 35px;
+}
+.departments .list ul li a:hover{
+    text-decoration: underline;
+}
+
+
+/* Mechanical Department */
+.mechdepart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    padding: 1.4rem 0rem;
+    color: rgb(0, 0, 0);
+    background-color: #20A39E;
+    margin: 5% 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mechdepart  span{
+    font-weight: bold;
+    margin-left: 1%;
+    font-size: 40px;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.mechpic{
+    margin: 4% 0%;
+    text-align: center;
+}
+.mechpic h3{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mechpic h3,.mechpic p{
+    margin: 4% 0%;
+}
+.mechcontent{
+    width: 70%;
+    margin: 1% auto;
+}
+.mechcontent h3{
+    font-size: 2rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: bold;
+}
+.mechpara{
+    line-height: 30px;
+    font-size: 19px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.electricalpara{
+    width: 100%;
+}
+
+
+.iothead p{
+    font-size: 24px;
+}
+
+.iothead1 p{
+    font-size: 26px;
+}
+
+
+.mbahead1 p{
+    font-size: 18px;
+}
+
+
+/* Infrastructure */
+
+.headlib{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    margin: 5% 0%;
+    color: white;
+    background-color: seagreen;
+}
+.central h3{
+    text-align: center;
+}
+.central img{
+    margin: 5% 15%;
+}
+.central p{
+    word-spacing: 3px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.central{
+    width: 70%;
+    margin: 5% auto;
+}
+
+.library h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+
+/* Placements */
+
+
+.placements{
+    width: 100%;
+    margin: 10% auto;
+    text-align: center;
+    border:30px solid rgba(231, 231, 29, 0.675);
+}
+.placements h3{
+    margin: 3% 0%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.placements img{
+    margin: 1%;
+}
+
+.placementdetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.placementdetails .mem{
+    text-align: center;
+    width: 19rem;
+    height: 22rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px 10rem 20rem 20rem;
+    box-shadow: 0px 0px 6px  black;
+}
+.placementdetails .mem{
+    margin: 2.4rem 1.8rem;
+    background-color: #cbf3f2;
+    padding: 1.8rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.placementdetails .mem p{
+    margin: 4% 0%;
+    font-weight: 600;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.placementdetails .mem h4{
+    color: #E71D36;
+    font-weight: bold;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.teamhead{
+    text-align: center;
+    padding: 2%;
+    margin-top: 4%;
+    font-weight: bold;
+    font-size: 1.6rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+    color: white;
+    background-color: rgb(230, 142, 79);
+}
+
+
+/* Admission Page */
+
+.filladmission h2{
+    text-align: center;
+    background-color: springgreen;
+    padding: 3% 0%;
+    margin: 5% 0%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.admissionhead{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.admissionhead h2{
+    padding: 1% 0%;
+    line-height: 35px;
+}
+.admissionhead hr{
+    color: #E71D36;
+}
+.admissionhead i{
+    font-size: 70px;
+    color: #E71D36;
+}
+.admissionform label{
+    display: block;
+    margin: 6% 0%;
+}
+.admissionform{
+    margin: 4% 16%;
+    border: 2px solid black;
+}
+.admissioncontact{
+    padding: 4% 10%;
+}
+.admissioncontact input,.admissioncontact select{
+    padding: 1% 2%;
+    outline: none;
+}
+.admissionformtag{
+    letter-spacing: 0.6px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.admissionformtag button{
+    text-align: center;
+    margin: 2% 45%;
+    padding: 1% 2%;
+    cursor: pointer;
+    background-color: #005c87;
+    color: white;
+    border: none;
+    outline: none;
+}
+.admissionformtag button:hover{
+    background-color: springgreen;
+    color: black;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+/* Contact Page */
+.contactform{
+    width: 50%;
+    margin: 10% auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contactform fieldset{
+    padding: 5%;
+    margin: 5% 0%;
+}
+.contactformhead{
+    text-align: center;
+    margin-top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contactformhead h3{
+    margin: 3% 0%;
+}
+
+.submitcontact{
+    text-align: center;
+}
+.submitcontact button{
+    padding: 2% 4%;
+    background-color: #F1E03B;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.submitcontact button:hover{
+    background-color: #E71D36;
+    color: white;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footersec1{
+    width: 40%;
+    margin: 1% 1%;
+    text-align: center;
+}
+.footersec1 i{
+font-size: 70px;
+color: #005c87;
+margin: 1rem 0rem;
+}
+.footoffices{
+    width: 50%;
+    margin: 1% 1%;
+}
+.footoffices ul li{
+    list-style-type: none;
+}
+.footoffices ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footoffices ul li a:hover{
+    text-decoration: underline;
+}
+.footaddress{
+    text-align: center;
+    width: 60%;
+    margin: 1% 1%;
+}
+.footerreach{
+    width: 40%;
+    text-align: center;
+    margin: 1% 8% 1% 5%;
+}
+.footerreach img{
+    width: 110%;
+}
+.footersection{
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.footersection h3{
+    font-weight: bold;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(79, 81, 79);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width: 480px) {
+    .homepagemain{
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./images/photo-1562774053-701939374585.jpg);
+        background-size: cover;
+        height: 100vh;
+    }
+    header{
+        height: 6.5rem;
+    }
+    header i{
+        font-size: 4rem;
+        position: absolute;
+        left: 2rem;
+        top: 1rem;
+    }
+    .baricon{
+        font-size: 2rem;
+        top: 2rem;
+        right: 2rem;
+        z-index: 5;
+    }
+    .xmark-icon i{
+        font-size: 1.4rem;
+        right: 0rem;
+        z-index: 3;
+    }
+    .index-nav{
+        margin-top: 0rem;
+    }
+    .nav{
+        overflow: hidden;
+        transition: 0.5s;
+        position: absolute;
+        display: none;
+        top: 6.5rem;
+        background-color: #005c87;
+        color: white;
+        width: 100%;
+        z-index: 10;
+        left: -40rem;
+    }
+    .nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    .nav ul li{
+        text-align: center;
+    }
+    .mainheading{
+        position: absolute;
+        top: 13rem;
+        font-size: 1.6rem;
+        width: 100%;
+    }
+    .mainheading span{
+        font-size: 1.5rem;
+    }
+    .feaallpics{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .central{
+        text-align: center;
+        width: 85%;
+        margin: auto;
+    }
+
+    .mechdepart p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .mechdepart  span{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .mechcontent{
+        width: 85%;
+    }
+    .mechcontent p{
+        text-align: center;
+    }
+    .mechcontent h3{
+        font-size: 1.3rem;
+    }
+
+    .placementteam{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .placementdetails .mem{
+        margin: 2rem 0rem;
+    }
+
+
+
+    .contactformhead h4{
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .contactform{
+        width: 90%;
+        margin: 0.4rem auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .contactform input , form #citizen, form .course-intrest{
+        margin: 0.4rem 0.2rem;
+        padding: 0.4rem 0.8rem;
+    }
+    form select{
+        width: 6rem;
+    }
+    form .course-special{
+        padding: 0.4rem;
+    }
+
+    .admissionform{
+        margin: 2rem;
+        padding: 0rem;
+    }
+    .admissionform input , .admissionform select{
+        padding: 0.4rem 0.3rem;
+        margin: 1rem 0.4rem;
+    }
+    .admissionform select{
+        width: 8rem;
+    }
+    .admissionformtag textarea{
+        width: 90%;
+    }
+
+
+    .footersec1{
+        width: 90%;
+        text-align: center;
+    }
+    .footoffices{
+        text-align: center;
+        width: 90%;
+    }
+    .footaddress{
+        width: 90%;
+    }
+    .footerreach{
+        width: 90%;
+    }
+    .footerreach img{
+        width: 90%;
+    }
+    .footersection{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        width: 100%;
+        padding: 1rem 0rem;
+        flex-direction: column;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        width: 100%;
+        padding: 1rem;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
